@@ -524,7 +524,7 @@ body:has([data-slot="conversation.input.dock"] > [class*="_dock"]) [data-compose
 [data-dsh-better-sidebar] [class*="_panel"]:not([class*="_panelHidden"]):not([class*="_panelBody"]):not([class*="_panelResize"]),
 [data-dsh-better-sidebar] [class*="_bottomPanel"]:not([class*="_bottomPanelHidden"]),
 [data-dsh-panel-host] [class*="_paneCard"] {
-  background: var(--dsw-wallpaper-glass-fill) !important;
+  background: transparent !important;
   -webkit-backdrop-filter: blur(var(--dsw-wallpaper-glass-blur, 10px)) !important;
   backdrop-filter: blur(var(--dsw-wallpaper-glass-blur, 10px)) !important;
   border-radius: 12px !important;
