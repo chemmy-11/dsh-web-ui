@@ -521,15 +521,13 @@ body:has([data-slot="conversation.input.dock"] > [class*="_dock"]) [data-compose
    host attributes + class suffixes. */
 [data-dsh-better-sidebar] [class*="_paneCard"],
 [data-dsh-better-sidebar] [class*="_tabBar"],
-[data-dsh-better-sidebar] [class*="_panel"]:not([class*="_panelHidden"]):not([class*="_panelBody"]):not([class*="_panelResize"]),
+[data-dsh-better-sidebar] [class*="_panel"]:not([class*="_panelHidden"]):not([class*="_panelResize"]),
 [data-dsh-better-sidebar] [class*="_bottomPanel"]:not([class*="_bottomPanelHidden"]),
+[data-dsh-better-sidebar] [class*="_panelBody"],
 [data-dsh-panel-host] [class*="_paneCard"] {
   background: transparent !important;
   -webkit-backdrop-filter: blur(var(--dsw-wallpaper-glass-blur, 10px)) !important;
   backdrop-filter: blur(var(--dsw-wallpaper-glass-blur, 10px)) !important;
-  border-radius: 12px !important;
-  border: 0.8px solid rgba(255, 255, 255, 0.06) !important;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.02), 0 8px 24px rgba(0, 0, 0, 0.04) !important;
 }
 
 [data-dsh-better-sidebar] [class*="_paneCard"]:hover:not(:disabled) {
