@@ -349,7 +349,7 @@ body:not([data-ds-dark-theme]) button[class*="_primary"]:not([data-dsh-plugin] *
 [data-slot="conversation.session.header.actions"] [class*="_subagent"],
 [data-slot="conversation.session.header.actions"] [class*="_subagentBody"],
 [data-slot="conversation.session.header.actions"] [class*="_subagentRow"] {
-  background-color: var(--dsw-wallpaper-glass-float) !important;
+  background-color: transparent !important;
   -webkit-backdrop-filter: blur(var(--dsw-wallpaper-glass-blur, 10px)) !important;
   backdrop-filter: blur(var(--dsw-wallpaper-glass-blur, 10px)) !important;
 }
@@ -357,11 +357,9 @@ body:not([data-ds-dark-theme]) button[class*="_primary"]:not([data-dsh-plugin] *
 /* Right-side subagent side panel: input-card material. */
 [class$="_subagent"],
 [class$="_subagentBody"] {
-  background-color: var(--dsw-wallpaper-glass-float) !important;
+  background-color: transparent !important;
   -webkit-backdrop-filter: blur(var(--dsw-wallpaper-glass-blur, 10px)) !important;
   backdrop-filter: blur(var(--dsw-wallpaper-glass-blur, 10px)) !important;
-  border: 0.8px solid rgba(255, 255, 255, 0.06) !important;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.02), 0 8px 24px rgba(0, 0, 0, 0.04) !important;
 }
 
 [data-slot="conversation.session.header.actions"] [class*="_subagentRowActive"] {
